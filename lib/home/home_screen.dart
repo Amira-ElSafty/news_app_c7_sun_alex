@@ -4,7 +4,7 @@ import 'package:flutter_news_app_sun_c7_alex/drawer/home_drawer.dart';
 import 'package:flutter_news_app_sun_c7_alex/home/category/category_details.dart';
 import 'package:flutter_news_app_sun_c7_alex/home/category/category_widget.dart';
 import 'package:flutter_news_app_sun_c7_alex/home/settings/settings_tab.dart';
-import 'package:flutter_news_app_sun_c7_alex/home/tab_container.dart';
+import 'package:flutter_news_app_sun_c7_alex/home/category/tab_container.dart';
 import 'package:flutter_news_app_sun_c7_alex/model/SourcesResponse.dart';
 import 'package:flutter_news_app_sun_c7_alex/model/category.dart';
 import 'package:flutter_news_app_sun_c7_alex/my_theme.dart';
