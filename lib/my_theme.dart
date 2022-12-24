@@ -12,4 +12,41 @@ class MyTheme{
   static Color greyColor = Color(0xff4F5A69);
   static Color blackColor = Color(0xff303030);
 
+  static ThemeData lightTheme = ThemeData(
+    primaryColor: primaryLightColor,
+    textTheme: TextTheme(
+      headline1: TextStyle(
+        color: whiteColor,
+        fontSize: 22,
+        fontWeight: FontWeight.bold
+      ),
+      headline2: TextStyle(
+          color: blackColor,
+          fontSize: 20,
+          fontWeight: FontWeight.bold
+      ),
+      subtitle1: TextStyle(
+          color: greyColor,
+          fontSize: 22,
+          fontWeight: FontWeight.bold
+      ),
+      subtitle2: TextStyle(
+          color: whiteColor,
+          fontSize: 20,
+          fontWeight: FontWeight.bold
+      ),
+    ),
+    appBarTheme: AppBarTheme(
+      backgroundColor: primaryLightColor,
+      elevation: 0,
+      centerTitle: true,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.only(
+          bottomLeft: Radius.circular(35),
+          bottomRight: Radius.circular(35)
+        )
+      ),
+    ),
+  );
+
 }
